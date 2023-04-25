@@ -1,14 +1,158 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "usecases": [
+    {
+      "id": 1,
+      "categoryOptions": ["Digital Twins", "Replication"],
+      "title": "51World creates digital twin of the entire city of Shanghai",
+      "summary": "51World individually modeled over 20 landmark structures including the Oriental Pearl and Shanghai Tower, and used data from satellites, drones, and sensors to generate."
+    },
+    {
+      "id": 2,
+      "categoryOptions": ["Digital Twins", "Defense"],
+      "title": "U.S Navy creates virtual USS Gerald R. Ford to simulate critical. The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy.",
+      "summary": "The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy. The integration of the wind energy. The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy."
+    },
+    {
+      "id": 3,
+      "categoryOptions": ["Digital Twins", "Manufacturing"],
+      "title": "Volvo uses digital thread manufacturing saves thousands",
+      "summary": "The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy. The integration of the wind energy. The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy."
+    },
+    {
+      "id": 4,
+      "categoryOptions": ["Augumented Reality", "Space"],
+      "title": "51World creates digital twin of the entire city of Shanghai",
+      "summary": "51World individually modeled over 20 landmark structures including the Oriental Pearl and Shanghai Tower, and used data from satellites, drones, and sensors to generate."
+    },
+    {
+      "id": 5,
+      "categoryOptions": ["Digital Twins", "Replication"],
+      "title": "51World creates digital twin of the entire city of Shanghai",
+      "summary": "51World individually modeled over 20 landmark structures including the Oriental Pearl and Shanghai Tower, and used data from satellites, drones, and sensors to generate."
+    },
+    {
+      "id": 6,
+      "categoryOptions": ["Digital Twins", "Replication"],
+      "title": "51World creates digital twin of the entire city of Shanghai",
+      "summary": "51World individually modeled over 20 landmark structures including the Oriental Pearl and Shanghai Tower, and used data from satellites, drones, and sensors to generate."
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "recommended": [
+    {
+      "id": 1,
+      "categoryOptions": ["Digital Twins", "Replication"],
+      "title": "51World creates digital twin of the entire city of Shanghai",
+      "summary": "51World individually modeled over 20 landmark structures including the Oriental Pearl and Shanghai Tower, and used data from satellites, drones, and sensors to generate..."
+    },
+    {
+      "id": 2,
+      "categoryOptions": ["Digital Twins", "Defense"],
+      "title": "U.S Navy creates virtual USS Gerald R. Ford to simulate critical...",
+      "summary": "The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy. The integration of the wind energy..."
+    },
+    {
+      "id": 3,
+      "categoryOptions": ["Digital Twins", "Manufacturing"],
+      "title": "Volvo uses digital thread manufacturing saves thousands",
+      "summary": "The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy. The integration of the wind energy..."
+    }
   ],
-  "profile": {
-    "name": "typicode"
+
+  "vendors": [
+    {
+      "id": 1,
+      "name": "General Electric",
+      "description": "General Electric (GE) is known for its commitment to research and development, collaboration with other organizations, and pioneering technologies in areas such as advanced manufacturing and renewable energy."
+    },
+    {
+      "id": 2,
+      "name": "Amazon",
+      "description": "General Electric (GE) is known for its commitment to research and development, collaboration with other organizations, and pioneering technologies in areas such as advanced manufacturing and renewable energy."
+    },
+    {
+      "id": 3,
+      "name": "Ford",
+      "description": "Ford is constantly seeks to develop and incorporate new technology into its products and services to improve the driving experience and meet the changing needs of consumers. Its committed to electric mobility, autonomous vehicles. The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy."
+    },
+    {
+      "id": 4,
+      "name": "General Electric",
+      "description": "Ford is constantly seeks to develop and incorporate new technology into its products and services to improve the driving experience and meet the changing needs of consumers. Its committed to electric mobility, autonomous vehicles. The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy."
+    },
+    {
+      "id": 5,
+      "name": "General Electric",
+      "description": "Ford is constantly seeks to develop and incorporate new technology into its products and services to improve the driving experience and meet the changing needs of consumers. Its committed to electric mobility, autonomous vehicles. The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy."
+    },
+    {
+      "id": 6,
+      "name": "General Electric",
+      "description": "Ford is constantly seeks to develop and incorporate new technology into its products and services to improve the driving experience and meet the changing needs of consumers. Its committed to electric mobility, autonomous vehicles. The Digital Wind Farm consists of two key parts: a 2MW wind turbine, and wind power software that can monitor and optimize the turbine as it runs and generates energy."
+    }
+  ],
+
+  "vendor": {
+    "id": 1,
+    "name": "Ford Motor Company",
+    "description": "Ford is constantly seeking to develop and incorporate new technology into its products and services to improve the driving experience and meet the changing needs of consumers. Through its commitment to electric mobility, autonomous vehicles, advanced manufacturing, connected cars, and smart mobility solutions, Ford is leading the way in transforming the automotive industry. Its focus on innovation has enabled it to stay competitive in a rapidly evolving marketplace and continue to be a leader in the automotive industry.",
+    "technology": [
+      {
+        "id": 1,
+        "title": "Power and Energy",
+        "image": "../../assets/UsecaseDetailImage.png"
+      },
+      {
+        "id": 2,
+        "title": "Machine Learning",
+
+        "image": "../../assets/UsecaseDetailImage.png"
+      },
+      {
+        "id": 3,
+        "title": "AI & Robotics",
+
+        "image": "../../assets/VendorLogo.png"
+      },
+      {
+        "id": 4,
+        "title": "Contested Logistics",
+        "image": "../../assets/UsecaseDetailImage.png"
+      }
+    ],
+    "usecases": [
+      {
+        "id": 1,
+        "categoryOptions": ["Digital Twins", "Replication"],
+        "title": "Ford Digital Twin Energy Plant Management",
+        "summary": "A digital twin is the virtual representation of a physical object or system across its life cycle. Ford uses digital twin technology to accurately detect energy losses, pinpoint areas where energy can..."
+      },
+      {
+        "id": 2,
+        "categoryOptions": ["Digital Twins", "Defense"],
+        "title": "Ford Digital Twin Energy Plant Management",
+        "summary": "A digital twin is the virtual representation of a physical object or system across its life cycle. Ford uses digital twin technology to accurately detect energy losses, pinpoint areas where energy can..."
+      }
+    ]
+  },
+
+  "tags": {
+    "Technology": [
+      "Power and Energy",
+      "Human Performance Optimization",
+      "AI & Robotics",
+      "Contested Logistics"
+    ],
+    "Sector": [
+      "Defense",
+      "Education",
+      "Energy",
+      "Data & Statistic Analysis",
+      "Food & Agriculture",
+      "Infrastructure",
+      "Advanced Research",
+      "Envirnomental and Sustainability",
+      "Aeronautics and Space",
+      "Health and Welfare"
+    ]
   }
 }
